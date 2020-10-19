@@ -1,12 +1,54 @@
-body, ul, li, h1, h2, h3, h4, h5, h6, p, form, dl, dt, dd { 
-    margin: 0px; 
-    padding: 0px; 
-    font-size: 12px; 
-    font-weight: normal; }
-ul ol{ list-style: none; }
-img { border-style: none; }
-a { text-decoration: none; }
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+input,
+ul,
+li,
+ol,
+dl,
+dt,
+dd,
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
 
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    border: 0;
+}
+
+input,button {
+    outline: none;
+}
+
+body,
+html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    color: #333;
+    font-family: "微软雅黑";
+}
 
 
 
@@ -14,12 +56,12 @@ a { text-decoration: none; }
 
 @font-face {
     font-family: 'iconfont';
-    src: url('../index.html/iconfont.eot');
-    src: url('../index.html/iconfont.eot?#iefix') format('embedded-opentype'),
-        url('../index.html/iconfont.woff2') format('woff2'),
-        url('../index.html/iconfont.woff') format('woff'),
-        url('../index.html/iconfont.ttf') format('truetype'),
-        url('../index.html/iconfont.svg#iconfont') format('svg');
+    src: url('../font_8i54jxfwluu/iconfont.eot');
+    src: url('../font_8i54jxfwluu/iconfont.eot?#iefix') format('embedded-opentype'),
+        url('../font_8i54jxfwluu/iconfont.woff2') format('woff2'),
+        url('../font_8i54jxfwluu/iconfont.woff') format('woff'),
+        url('../font_8i54jxfwluu/iconfont.ttf') format('truetype'),
+        url('../font_8i54jxfwluu/iconfont.svg#iconfont') format('svg');
   }
 
 
