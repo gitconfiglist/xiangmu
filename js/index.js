@@ -20,9 +20,37 @@ nav(active_2,div_2);
 nav(active_3,div_3);
 
 
+var xiding_l = document.querySelector('#xiding_l');
+var itop= xiding_l.offsetTop;
 
+window.onscroll = function(){
+    var scrollTop = window.pageYOffset;
 
+    if(scrollTop>=itop){
+        xiding_l.style.position='fixed';
+        xiding_l.style.top=0;
+    }
+    else{
+        xiding_l.style.position='absolute';
+        xiding_l.style.top=itop + 'px';
+    }
+}
 
+var xiding_r = document.querySelector('#xiding_r');
+var itop= xiding_r.offsetTop;
+
+window.onscroll = function(){
+    var scrollTop = window.pageYOffset;
+
+    if(scrollTop>=itop){
+        xiding_r.style.position='fixed';
+        xiding_r.style.top=0;
+    }
+    else{
+        xiding_r.style.position='absolute';
+        xiding_r.style.top=itop + 'px';
+    }
+}
 
 
 
@@ -58,3 +86,37 @@ hdp({
     next:"next",	//右边箭头id
     ms:3000		//多少毫秒切换一张,默认800毫秒
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

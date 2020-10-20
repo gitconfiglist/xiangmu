@@ -1,4 +1,4 @@
-
+body{height: 3000px;}
 #head_up{width: 100%;height:36px;background: #333;}
 #head_up .banner_1{width:1090px;height: 36px;line-height: 36px;margin: 0 auto;}
 #head_up .banner_1 .head_upl{float: left;height: 36px;}
@@ -78,4 +78,240 @@
 #an a{position:absolute; top:50%;margin-top:-25px;margin-left: 60px; width:50px;height:50px;border-radius: 50%; background-color:#E2C199;text-align:center;line-height:50px;color:#fff;font-weight:600;}
 #an .an-a2{right: 60px;}
 #an a:hover{background-color:#CC9756}
+
+#main{
+    width: 100%;
+}
+#main .main_1{
+    width: 1090px;
+    margin: 0 auto;
+    height:510px;
+    margin-top: 30px;
+    box-sizing: border-box;
+}
+#main .main_1 .main_up{
+    height: 48px;
+}
+#main .main_1 .main_up h3{
+    font-size: 28px;
+    float: left;
+    margin-right: 20px;
+}
+#main .main_1 .main_up p{
+    float: left;
+    padding: 16px 0 0 0;
+}
+#main .main_1 .main_up div{
+    float: right;
+    margin-top: 16px;
+}
+#main .main_1 .main_up a{color: #000;}
+#main .main_1 .main_up a:hover{color:#CC9756}
+
+#main .main_1 .main_down div{
+    width: 265px;
+    margin-right: 10px;
+    float: left;
+    text-align: center;
+    height: 100%;
+    border: 1px solid #fff;
+}
+#main .main_1 .main_down div:hover{
+    border-color: #ccc;
+    background: #eee2d6;
+    cursor: pointer;
+    
+}
+#main .main_1 .main_down .main_down_4{
+    margin-right: 0;
+}
+#main .main_1 .main_down h4{
+    width: 166px;
+    height: 40px;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+#main .main_1 .main_down p{
+    text-align: center;
+}
+
+#main .main_1 .main_down .main_down_2 h4{
+    height: 20px;
+    line-height: 20px;
+    
+}
+#main .main_1 .main_down span{
+    display: inline-block;
+    height: 20px;
+    margin: 8px 0 8px 0;
+}
+#main .main_1 .main_down h4 a{
+    color: #333;
+}
+#main .main_1 .main_down p a{
+    color: #d4282d;
+}
+#main .main_1 .main_down .main_down_2 span{
+    width: 34px;
+    height: 20px;
+    background-color: #e36844;
+    
+}
+#main .main_1 .main_down .main_down_2 span a,#main .main_1 .main_down .main_down_4 span a{
+    color: #fff;
+}
+
+#main .main_1 .main_down .main_down_4 span {
+    width: 58px;
+    height: 20px;
+    background-color: #e36844;
+}
+
+
+#xiding_l{
+    width: 110px;
+    border: 1px solid #E2DED6;
+    position: absolute;
+    left: 0;
+    top: 610px;
+    background: #fff;
+}
+#xiding_l h4{
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    color: #BB3343;
+    font-size: 16px;
+}
+#xiding_l li{
+   
+    text-align: center;
+    color: #BB3343;
+    cursor: pointer;
+    padding: 0 15px;
+}
+#xiding_l li span{
+    float: left;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 18px;
+    color: #BB3343;
+}
+
+#xiding_l li p{
+    float: right;
+    width: 45px;
+    text-align: left;
+}
+#xiding_l li a{
+    color: #333;
+    overflow: hidden;
+    display: block;
+}
+#xiding_l li a:hover{
+    color: #BB3343;
+}
+#xiding_l li:nth-of-type(1) a p{
+    font-weight: bold;
+}
+#xiding_l li::before{
+    border-top: 1px solid #ccc;
+    content: '';
+    display: inline-block;
+    margin: 0 auto;
+    width: 88px;
+}
+
+#xiding_r{
+    
+    top: 610px;
+    width: 72px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+#xiding_r div img{
+    width: 70px;
+    height: 70px;
+}
+#xiding_r div p{
+    text-align: center;
+    color: #666;
+}
+#xiding_r div a{
+    color: #666;
+}
+#xiding_r div a span{
+   font-size: 40px;
+  
+}
+#xiding_r div a:hover{
+    color: #CC9756;
+}
+#xiding_r div p:hover{
+    color: #CC9756;
+}
+#xiding_r div::after{
+    border-bottom: 1px solid #ccc;
+    content: '';
+    display: inline-block;
+    width: 60px;
+    margin: 0 auto;
+}
+#xiding_r div .hong{
+    color: #BC3B3B;
+}
+#xiding_r .hui{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
