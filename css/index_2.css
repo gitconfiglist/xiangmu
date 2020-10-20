@@ -50,12 +50,32 @@
 #head_nav1 .head_nav2 li{
     float: left;
     width:108px ;
-    height: 21px;
+    height: 30px;
     text-align: center;
+    
+}
+#head_nav1 .head_nav2 li:nth-of-type(1) a{
+    border-bottom: 4px solid #CC9756;
+    color:#CC9756 ;
+    }
+#head_nav1 .head_nav2 li a{color: #000;font-weight: bold;display:inline-block;height: 26px;}
+#head_nav1 .head_nav2 li a:hover{
+    border-bottom: 4px solid #CC9756;
+    color:#CC9756 ;
 }
 #head_nav1 .head_nav2 li:nth-of-type(1),#head_nav1 .head_nav2 li:nth-of-type(11){
     width: 54px;
 }
 
 
+#boxhdp{width:100%;height:420px;margin:0 auto;overflow:hidden;position:relative}
+#img>li{width:100%;height:100%;float:left;text-align:center;display:none}
+#img>.current{display:block}
+#li{position:absolute;left:50%;bottom:15px;margin-left:-35px}
+#li>li{width:10px;height:10px;background-color:#fff;border-radius:50%;margin-right:5px;float:left;cursor:pointer}
+#li>.on{background-color:#f50}
+
+#an a{position:absolute; top:50%;margin-top:-25px;margin-left: 60px; width:50px;height:50px;border-radius: 50%; background-color:#E2C199;text-align:center;line-height:50px;color:#fff;font-weight:600;}
+#an .an-a2{right: 60px;}
+#an a:hover{background-color:#CC9756}
 
