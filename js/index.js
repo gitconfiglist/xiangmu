@@ -21,7 +21,9 @@ nav(active_3,div_3);
 
 
 var xiding_l = document.querySelector('#xiding_l');
+var xiding_r = document.querySelector('#xiding_r');
 var itop= xiding_l.offsetTop;
+var itop_1= xiding_r.offsetTop;
 
 window.onscroll = function(){
     var scrollTop = window.pageYOffset;
@@ -34,25 +36,55 @@ window.onscroll = function(){
         xiding_l.style.position='absolute';
         xiding_l.style.top=itop + 'px';
     }
-}
+    var scrollTop_1 = window.pageYOffset;
 
-var xiding_r = document.querySelector('#xiding_r');
-var itop= xiding_r.offsetTop;
-
-window.onscroll = function(){
-    var scrollTop = window.pageYOffset;
-
-    if(scrollTop>=itop){
+    if(scrollTop_1>=itop_1){
         xiding_r.style.position='fixed';
         xiding_r.style.top=0;
     }
     else{
         xiding_r.style.position='absolute';
-        xiding_r.style.top=itop + 'px';
+        xiding_r.style.top=itop_1 + 'px';
     }
 }
 
+// var xiding_r = document.querySelector('#xiding_r');
+// var itop_1= xiding_r.offsetTop;
 
+// window.onscroll = function(){
+//     var scrollTop_1 = window.pageYOffset;
+
+//     if(scrollTop_1>=itop_1){
+//         xiding_r.style.position='fixed';
+//         xiding_r.style.top=0;
+//     }
+//     else{
+//         xiding_r.style.position='absolute';
+//         xiding_r.style.top=itop_1 + 'px';
+//     }
+// }
+
+$(function() {
+
+    $(window).scroll(function() { //声明滚动对象 
+
+        var top = $(window).scrollTop(); //获取滚动条距离顶部的距离
+
+        if (top > 650) { //若大于300px
+
+            $('.hui').fadeIn(); //则淡入小火箭按钮
+
+        } else { //否则
+
+            $('.hui').fadeOut(); //淡出按钮
+
+        }
+
+        
+
+    })
+
+})
 
 
 
