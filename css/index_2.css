@@ -1,4 +1,4 @@
-body{height: 3000px;}
+
 #head_up{width: 100%;height:36px;background: #333;}
 #head_up .banner_1{width:1090px;height: 36px;line-height: 36px;margin: 0 auto;}
 #head_up .banner_1 .head_upl{float: left;height: 36px;}
@@ -410,6 +410,7 @@ color: #333;
     padding-top: 60px;
     padding-bottom: 34px;
     border-top: 1px solid #e8e8e8;
+    height: 300px;
 }
 #footer .footer_top .footer_ban{
     width: 1090px;
@@ -508,8 +509,8 @@ color: #333;
 }
 #footer .footer_top .footer_ban .footer_top3 h4{
     width: 363.33px;
-    height: 18.5px;
-    line-height: 18.5px;
+    height: 16px;
+    line-height: 16px;
     text-align: center;
     margin: 0 0 28px;
     font-size: 16px;
@@ -524,6 +525,163 @@ color: #333;
 #footer .footer_top .footer_ban .footer_top3 p{
     color: #b4a078;
 }
+
+
+
+#footer .footer_z{
+    height: 268px;
+    background-color:#414141;
+    padding: 37px;
+}
+#footer .footer_z .footer_ban1{
+    width: 1090px;
+    margin: 0 auto;
+}
+
+#footer .footer_z .footer_ban1 ul{
+    height: 51px;
+    padding-left: 17px;
+    margin-bottom: 30px;
+   
+}
+#footer .footer_z .footer_ban1 .xian{
+    height: 1px;
+    border-bottom: 1px solid #4f4f4f;
+    margin-bottom: 27px;
+}
+#footer .footer_z .footer_ban1 ul li{
+    float: left; 
+    
+    line-height: 51px;
+    
+}
+#footer .footer_z .footer_ban1 ul li p{
+    color: #fff;
+   float: right;
+    font-size: 18px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(1){
+    width: 175px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(2){
+    margin: 0 127px;
+    width: 197px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(3){
+    margin-right:122px ;
+    width: 179px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(4){
+    width: 139px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(1) i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/bj-icon7.png) no-repeat 0 -134px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(2) i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/bj-icon7.png) no-repeat 0 -368px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(3) i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/bj-icon7.png) no-repeat 0 0px;
+}
+#footer .footer_z .footer_ban1 ul li:nth-of-type(4) i{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url(../images/bj-icon7.png) no-repeat 0 -194px;
+}
+
+
+#footer .footer_down{
+    text-align: center;
+    font-size: 12px;
+}
+#footer .footer_down  a,#footer .footer_down .footer_down1 b,#footer .footer_down .footer_down2 span,#footer .footer_down .footer_down3 span,#footer .footer_down .footer_down4 span{
+    color: #999;
+}
+#footer .footer_down .footer_down1 b{
+    margin: auto 13px;
+}
+#footer .footer_down .footer_down1 a:hover{
+    color: #fff;
+}
+#footer .footer_down .footer_down2{
+    margin: 13px 0;
+    
+}
+#footer .footer_down .footer_down2 p a,#footer .footer_down .footer_down2 p span{
+    margin-right: 7px;
+}
+#footer .footer_down .footer_down2 p a:hover{
+    color: #fff;
+}
+#footer .footer_down .footer_down3{
+    padding-bottom: 11px;
+}
+#footer .footer_down .footer_down3 span{
+    margin-right: 10px;
+}
+#footer .footer_down .footer_down3 p a:hover{
+    color: #fff;
+}
+#footer .footer_down .footer_down4{
+    padding-bottom: 11px;
+}
+#footer .footer_down .footer_down4 span{
+    margin-right: 10px;
+}
+#footer .footer_down .footer_down4 a{
+    margin-right: 10px;
+}
+#footer .footer_down .footer_down4 p a:hover{
+    color: #fff;
+}
+#footer .footer_down .footer_down4 p img{
+    width: 23px;
+    height: 25px;
+    vertical-align: top;
+    
+    position: absolute;
+    right: 310px;
+    margin-top: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
